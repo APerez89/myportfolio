@@ -5,17 +5,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-
+    scopen: false,
   },
-  mutations: {
-
-  },
-  actions: {
-
-  },
-  modules: {
-    state: {
-      scopen: false,
-    },
-  },
+  mutations: {},
+  actions: {},
 });

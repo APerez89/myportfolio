@@ -1,6 +1,7 @@
 <template>
   <div class="nav-wrap">
-    <div class="mob-nav">
+    <!-- If there is more than one class, add classes to array -->
+    <div :class="['mob-nav', $store.state.scopen ? 'open' : '']">
       <ul>
         <li><router-link class="link" to="/">Welcome</router-link></li>
         <li><router-link class="link" to="/About">About</router-link></li>

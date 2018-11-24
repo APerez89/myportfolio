@@ -12,7 +12,11 @@ export default {
 
   mounted() {
     const options = {
-      strings: ['^1000 Hello, My name is Alex.', '^600 Front-end Developer Extraordinaire.', '^600 Welcome to my Portfolio!'],
+      strings: [
+        '^1000 Hello, My name is Alex.',
+        '^600 Front-end Developer Extraordinaire.',
+        '^600 Welcome to my Portfolio!',
+      ],
       typeSpeed: 80,
       backDelay: 1000,
       backSpeed: 20,
@@ -25,7 +29,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 @media only screen and (max-width: 600px) {
   .hello {
     height: 300px;

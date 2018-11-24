@@ -1,8 +1,23 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
+    <NavMenu v-show="$route.name !== 'home'" />
+    <HamburgerMenu v-show="$route.name !== 'home'" />
   </div>
 </template>
+
+<script>
+import HamburgerMenu from '@/components/HamburgerMenu.vue';
+import NavMenu from '@/components/NavMenu.vue';
+
+export default {
+  name: '',
+  components: {
+    NavMenu,
+    HamburgerMenu,
+  },
+};
+</script>
 
 <style lang="scss">
 * {

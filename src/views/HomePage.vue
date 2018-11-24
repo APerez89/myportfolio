@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <div class="drk-bkg">
-      <HelloIntro/>
-      <MainButton/>
+      <HelloIntro />
+      <MainButton />
     </div>
   </div>
 </template>
@@ -22,13 +22,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .home {
   width: 100vw;
   height: 100vh;
   background-image: url('/img/Couch-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 50%;
   .drk-bkg {
     width: 100vw;
     height: 100vh;
@@ -41,9 +41,9 @@ export default {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .home {
-    background-position-x: 50%;
+    background-position-x: auto;
   }
 }
 </style>
