@@ -13,4 +13,9 @@ export default new Vuex.Store({
   actions: {
 
   },
+  modules: {
+    state: {
+      scopen: false,
+    },
+  },
 });
