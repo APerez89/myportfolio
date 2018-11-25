@@ -4,8 +4,11 @@
       <h2>Portfolio</h2>
       <div class="info-card">
         <ul>
-          <li v-for="job in jobs" :key="job['.key']">
-            <div class="job-image" :style="`background-image: url(img/${job.img_url})`"></div>
+          <li
+            v-for="job in jobs"
+            :key="job['.key']"
+            :style="`background-image: url(img/${job.img_url})`"
+          >
             <div class="job-info">
               <span class="job-title">{{ job.title }}</span> <br />
               <span class="job-info">{{ job.info }}</span>
