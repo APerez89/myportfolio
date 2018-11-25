@@ -62,6 +62,11 @@ export default {
       //   padding: 15px;
       //   overflow: scroll;
       // }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
     }
   }
 }
