@@ -29,8 +29,4 @@ const jobs = [
   },
 ];
 
-export default {
-  getJobs(cb) {
-    setTimeout(() => cb(jobs), 100);
-  },
-};
+export default jobs;
