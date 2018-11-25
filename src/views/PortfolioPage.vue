@@ -18,11 +18,15 @@
 </template>
 
 <script>
-import portfolio from '@/api/portfolio';
+import jobs from '@/api/jobs';
 
 export default {
   name: 'PortfolioPage',
-  // namesSpaced: true,
+  data() {
+    return {
+      jobs,
+    };
+  },
 };
 </script>
 
