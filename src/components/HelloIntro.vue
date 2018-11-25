@@ -29,22 +29,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@media only screen and (max-width: 600px) {
-  .hello {
-    height: 300px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    h1 {
-      font-size: 48px;
-      font-weight: 900;
-    }
+.hello {
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
   }
 }
-// .hello {
-//   h1 {
-//     font-size: 88px;
-//     font-weight: 900;
-//   }
-// }
+
+@media only screen and (max-width: 600px) {
+}
+
 </style>

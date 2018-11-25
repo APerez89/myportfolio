@@ -32,36 +32,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media only screen and (max-width: 600px) {
-  .nav-wrap {
-    .mob-nav {
-      width: 250px;
-      height: 100vh;
-      background-color: #17171a;
-      position: fixed;
-      top: 0;
-      right: 0;
-      z-index: 9;
-      transform: translateX(250px);
-      transition: 0.3s all;
-      &.open {
-        transform: translateX(0);
-      }
-      ul {
-        li {
-          list-style: none;
-          font-variant: small-caps;
-          padding: 10px 0;
-          .link {
-            text-decoration: none;
-            color: #fff;
-          }
+.nav-wrap {
+  .mob-nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #17171a;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    transform: translateX(250px);
+    transition: 0.3s all;
+    &.open {
+      transform: translateX(0);
+    }
+    ul {
+      li {
+        list-style: none;
+        font-variant: small-caps;
+        padding: 10px 0;
+        .link {
+          text-decoration: none;
+          color: #fff;
         }
       }
     }
-    .nav {
-      display: none;
-    }
   }
+  .nav {
+    display: none;
+  }
+  }
+
+@media only screen and (max-width: 600px) {
 }
 </style>
