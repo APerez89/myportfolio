@@ -40,6 +40,8 @@ export default {
     position: fixed;
     top: 0;
     right: 0;
+    display: flex;
+    align-items: center;
     z-index: 9;
     transform: translateX(250px);
     transition: 0.3s all;
@@ -54,6 +56,7 @@ export default {
         .link {
           text-decoration: none;
           color: #fff;
+          font-weight: 600;
         }
       }
     }

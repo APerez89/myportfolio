@@ -26,12 +26,10 @@ export default {
   padding: 15px;
   .about {
     max-width: 500px;
-    max-height: 400px;
     background-color: #ffffff;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
     padding: 25px;
     color: #17171a;
-    overflow: scroll;
     h2 {
       font-size: 40px;
       padding-bottom: 25px;

@@ -1,7 +1,7 @@
 <template>
   <div class="skills-wrap">
     <div class="skills">
-      <h2>Some Skills</h2>
+      <h2>Skills</h2>
       <div class="skill-cards">
         <ul>
           <li v-for="skill in skills" :key="skill['.key']">

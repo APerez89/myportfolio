@@ -49,7 +49,6 @@ export default {
     }
     .info-card {
       max-width: 500px;
-      overflow: scroll;
       ul {
         list-style: none;
         padding: 10px;
@@ -67,6 +66,7 @@ export default {
             flex-direction: column;
             padding: 15px;
             h3 {
+              margin-bottom: 10px;
               a {
                 text-decoration: none;
                 border-bottom: 1px solid #17171a;

@@ -23,12 +23,6 @@ const skills = [
     info: 'Info here',
     img_url: 'brands.png',
   },
-  {
-    id: 5,
-    title: 'SASS',
-    info: 'Info here',
-    img_url: 'sass.png',
-  },
 ];
 
 export default skills;
