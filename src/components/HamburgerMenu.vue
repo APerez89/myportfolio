@@ -1,6 +1,6 @@
 <template>
   <div class="hamburger-wrap" @click="$store.state.scopen = !$store.state.scopen;">
-    <div class="hamburger">
+    <div class="hamburger hamburger--squeeze is-active">
       <div class="hamburger-box"><div class="hamburger-inner"></div></div>
     </div>
   </div>
