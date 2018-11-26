@@ -18,16 +18,20 @@ export default {
 .about-wrap {
   width: 100vw;
   height: 100vh;
-  background-color: #e5e7e9;
+  background-image: url('/img/pattern.png');
+  background-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
   .about {
     max-width: 500px;
-    max-height: 600px;
-    margin: 25px;
+    max-height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
     padding: 25px;
     color: #17171a;
+    overflow: scroll;
     h2 {
       font-size: 40px;
       padding-bottom: 25px;

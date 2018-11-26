@@ -31,5 +31,13 @@ export default {
   line-height: 24px;
   letter-spacing: 1.3px;
   color: #fff;
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 }
 </style>

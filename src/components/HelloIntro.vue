@@ -37,10 +37,10 @@ export default {
   h1 {
     font-size: 48px;
     font-weight: 900;
+    line-height: 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
 }
-
 </style>

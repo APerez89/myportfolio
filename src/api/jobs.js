@@ -4,28 +4,40 @@ const jobs = [
     title: 'Shoe La-La',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'boat.jpg',
+    img_url: 'shoe-lala.jpg',
+    url: 'https://pensive-shannon-2a307c.netlify.com/',
   },
   {
     id: 2,
-    title: 'Shoe La-La',
+    title: 'Hyperreal',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'boat.jpg',
+    img_url: 'hyperreal.jpg',
+    url: 'https://hyperreal.cc/#/',
   },
   {
     id: 3,
-    title: 'Shoe La-La',
+    title: 'HomeStuff',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'boat.jpg',
+    img_url: 'homestuff.jpg',
+    url: 'https://homestuff.app/#/',
   },
   {
     id: 4,
-    title: 'Shoe La-La',
+    title: 'WireToWire',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'boat.jpg',
+    img_url: 'wire2wire.jpg',
+    url: 'https://www.wiretowirellc.com/',
+  },
+  {
+    id: 5,
+    title: 'Coffee with Meosha',
+    info:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
+    img_url: 'coffeewm.jpg',
+    url: 'https://angry-poincare-d4065f.netlify.com/#/',
   },
 ];
 
