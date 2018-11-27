@@ -35,9 +35,11 @@ export default {
 <style lang="scss" scoped>
 .portfolio-wrap {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   color: #17171a;
+  background-image: url(/img/memphis.png);
+  background-repeat: repeat;
   .portfolio {
     width: 100%;
     display: flex;
@@ -54,8 +56,8 @@ export default {
         padding: 10px;
         li {
           margin: 15px 0;
+          background-color: #fff;
           box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.1);
-          overflow: hidden;
           .job-img {
             height: 160px;
             background-size: cover;

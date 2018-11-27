@@ -1,6 +1,6 @@
 <template>
   <div class="hamburger-wrap" @click="$store.state.scopen = !$store.state.scopen;">
-    <div class="hamburger hamburger--squeeze is-active">
+    <div :class="['hamburger', 'hamburger--squeeze', $store.state.scopen ? 'is-active' : '']">
       <div class="hamburger-box"><div class="hamburger-inner"></div></div>
     </div>
   </div>
@@ -37,7 +37,7 @@ export default {
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: #000;
+    background-color: #fff;
   }
   .hamburger-box {
     width: 40px;
@@ -56,7 +56,7 @@ export default {
   .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #000;
+    background-color: #17171a;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

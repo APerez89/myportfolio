@@ -23,6 +23,12 @@ const skills = [
     info: 'Info here',
     img_url: 'brands.png',
   },
+  {
+    id: 5,
+    title: 'Adobe Photoshop',
+    info: 'Info here',
+    img_url: 'photoshop.png',
+  },
 ];
 
 export default skills;

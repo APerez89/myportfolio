@@ -1,14 +1,25 @@
 <template>
   <div class="contact-wrap">
     <div class="contact">
-      <h2>
-        If you like what you see and would like to work with me, please feel free to give me a call
-        or drop an email!
-      </h2>
+      <div class="bkg"><h2>Let's Talk</h2></div>
       <div class="contact-info">
-        <p>Phone: <span>(203)434-1532</span></p>
-        <p>Email: <span>alexperez689@gmail.com</span></p>
+        <p class="outro">
+          If you like what you see and had a good time, give me a call to discuss an opportunity to
+          work together! I <strong>love</strong> what I do and I am constantly looking for new and
+          fun projects to work on. Thank you for stopping by!
+        </p>
+        <div class="phone">
+          <img src="/img/smartphone.png" />
+          <p>(203)434-1532</p>
+        </div>
+        <div class="email">
+          <img src="gmail.png" />
+          <p>alexperez689@gmail.com</p>
+        </div>
       </div>
+      <!-- <div class="bottom">
+        <a href=""><img src="linkedin.png" /> </a><a href=""><img src="gmail.png"/></a>
+      </div> -->
     </div>
   </div>
 </template>
@@ -23,20 +34,42 @@ export default {
 .contact-wrap {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/pattern.png');
-  background-size: 100%;
-  padding: 20px;
   color: #17171a;
   .contact {
-    max-width: 500px;
-    height: 600px;
     background-color: #fff;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
-    padding: 25px;
+    .bkg {
+      width: 100%;
+      height: 300px;
+      background-image: url(/img/call-2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      h2 {
+        font-size: 40px !important;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 25px 0;
+        color: #fff;
+      }
+    }
     .contact-info {
-      margin: 25px 0;
-      p {
-        margin: 10px 0;
+      padding: 35px 25px;
+      color: #818181;
+      .outro {
+        margin-bottom: 25px;
+      }
+      .phone, .email {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 50px;
+        }
+      }
+      .phone {
+        margin-bottom: 25px;
       }
     }
   }
