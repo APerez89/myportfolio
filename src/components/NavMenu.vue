@@ -72,14 +72,14 @@ export default {
   }
   .nav {
     width: 200px;
-    height: 100vh;
+    height: 100%;
     background-color: #17171a;
-    position: fixed;
-    top: 0;
-    right: 0;
     display: flex !important;
-    align-items: center;
     ul {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 300px;
       li {
         list-style: none;
         font-variant: small-caps;

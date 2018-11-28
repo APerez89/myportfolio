@@ -1,10 +1,12 @@
 <template>
   <div class="portfolio-wrap">
+    <div class="bkg"><div class="drk-bkg"></div></div>
     <div class="portfolio">
-      <div class="bkg">
-        <div class="drk-bkg"><h2>P</h2></div>
-      </div>
       <h3 class="head">Portfolio</h3>
+      <p class="head-info">
+        Below are some of the projects I have had the privelage of being a part of. To see the
+        project, click on the name to be redirected to the website.
+      </p>
       <div class="info-card">
         <ul>
           <li v-for="job in jobs" :key="job['.key']">
@@ -39,37 +41,37 @@ export default {
 .portfolio-wrap {
   width: 100vw;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: all 0.5s;
-  .portfolio {
+  .bkg {
     width: 100%;
+    height: 300px;
+    background-image: url(/img/bkg-img/coding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .drk-bkg {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .portfolio {
+    max-width: 1250px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    .bkg {
-      width: 100%;
-      height: 300px;
-      background-image: url(/img/bkg-img/coding.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      .drk-bkg {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.3);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        h2 {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-            Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          font-size: 180px !important;
-          font-weight: 200;
-          text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-        }
-      }
-    }
     .head {
       margin: 25px 0 5px;
+    }
+    .head-info {
+      text-align: center;
+      padding: 0 0 15px;
     }
     .info-card {
       max-width: 1400px;

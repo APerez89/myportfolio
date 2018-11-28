@@ -1,6 +1,6 @@
 <template>
   <div class="contact-wrap">
-    <div class="bkg"><h2>C</h2></div>
+    <div class="bkg"></div>
     <div class="contact">
       <div class="contact-info">
         <h3 class="head">Let's Talk</h3>
@@ -35,6 +35,11 @@ export default {
 <style lang="scss" scoped>
 .contact-wrap {
   width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: all 0.5s;
   .bkg {
     width: 100%;
@@ -45,16 +50,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    h2 {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-        'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 180px !important;
-      font-weight: 200;
-      text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-    }
   }
   .contact {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     .contact-info {
       padding: 35px 25px;

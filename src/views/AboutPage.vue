@@ -1,17 +1,15 @@
 <template>
   <div class="about-wrap">
-    <div class="bkg">
-      <div class="drk-bkg"><h2>A</h2></div>
-    </div>
+    <div class="bkg"><div class="drk-bkg"></div></div>
     <div class="about">
       <div class="info">
         <h3>About Me</h3>
         <!-- eslint-disable -->
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt dolores dignissimos illo eligendi repellat, iure sit provident ea voluptatum nihil quod eum, ullam eveniet? Voluptas ut aliquam repellat atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos eligendi, animi laboriosam vitae tenetur vero fuga optio assumenda iure quos quisquam repudiandae odit in nulla ad obcaecati neque qui.</p>
+        <p>Experienced Front-end Web Developer with 4 plus years of development experiencee. I have worked on several projects where I implemented new techniques to get complete the tasks, and through trial and error have made every new project I take on easier. I am extremely driven and constantly learning new ways to enhance my skills as a developer while using Vue.JS framework. I have been spending most of my free time taking various courses to be a better developer.</p>
         <div class="abt-img">
           <img src="/img/icons/badge.png">
         </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt dolores dignissimos illo eligendi repellat, iure sit provident ea voluptatum nihil quod eum, ullam eveniet? Voluptas ut aliquam repellat atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos eligendi, animi laboriosam vitae tenetur vero fuga optio assumenda iure quos quisquam repudiandae odit in nulla ad obcaecati neque qui.</p>
+        <p>I am currently serving in the Connecticut Air National Guard and have been for 7 years and counting (8 years coming up this January)! My job in the Air National Guard is Supply, and for those of you who are familiar, "you can't fly without supply!" Recently I went away for Airman Leadership School where I learned several techniques on taking care of Airmen, leading Airmen, communication, and overall being the most effective leader. Shortly after graduating I was promoted to the rank of Staff Sergeant (SSgt) and with it taking on new challenges! With one deployment under my belt, and my years of service, I am extremely grateful for all of the experiences I have had and the people I have met, for they have made me a better person, father, and Airman.</p>
       </div>
     </div>
   </div>
@@ -43,13 +41,6 @@ export default {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-          Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 180px !important;
-        font-weight: 200;
-        text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-      }
     }
   }
   .about {

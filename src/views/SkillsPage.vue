@@ -1,9 +1,7 @@
 <template>
   <div class="skills-wrap">
     <div class="skills">
-      <div class="bkg">
-        <div class="drk-bkg"><h2>S</h2></div>
-      </div>
+      <div class="bkg"><div class="drk-bkg"></div></div>
       <h3 class="head">Skills</h3>
       <div class="skill-cards">
         <ul>
@@ -59,13 +57,6 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h2 {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-            Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          font-size: 180px !important;
-          font-weight: 200;
-          text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-        }
       }
     }
     h3 {
@@ -86,6 +77,9 @@ export default {
           }
           .skill-des {
             margin: 15px 0;
+            p {
+              margin: 15px 0;
+            }
           }
         }
       }
