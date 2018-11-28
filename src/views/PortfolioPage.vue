@@ -4,7 +4,7 @@
     <div class="portfolio">
       <h3 class="head">Portfolio</h3>
       <p class="head-info">
-        Below are some of the projects I have had the privelage of being a part of. To see the
+        Below are some of the projects I have had the privilege of being a part of. To see the
         project, click on the name to be redirected to the website.
       </p>
       <div class="info-card">
