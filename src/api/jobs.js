@@ -4,7 +4,7 @@ const jobs = [
     title: 'Shoe La-La',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'shoe-lala.jpg',
+    img_url: 'web-img/shoe-lala.jpg',
     url: 'https://pensive-shannon-2a307c.netlify.com/',
   },
   {
@@ -12,7 +12,7 @@ const jobs = [
     title: 'Hyperreal',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'hyperreal.jpg',
+    img_url: 'web-img/hyperreal.jpg',
     url: 'https://hyperreal.cc/#/',
   },
   {
@@ -20,7 +20,7 @@ const jobs = [
     title: 'HomeStuff',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'homestuff.jpg',
+    img_url: 'web-img/homestuff.jpg',
     url: 'https://homestuff.app/#/',
   },
   {
@@ -28,7 +28,7 @@ const jobs = [
     title: 'WireToWire',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'wire2wire.jpg',
+    img_url: 'web-img/wire2wire.jpg',
     url: 'https://www.wiretowirellc.com/',
   },
   {
@@ -36,7 +36,7 @@ const jobs = [
     title: 'Coffee with Meosha',
     info:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laborum blanditiis. Illum nostrum, non quod in tenetur eum suscipit facilis ipsum aperiam magnam alias, minima impedit placeat maiores minus officia!',
-    img_url: 'coffeewm.jpg',
+    img_url: 'web-img/coffeewm.jpg',
     url: 'https://angry-poincare-d4065f.netlify.com/#/',
   },
 ];

@@ -31,16 +31,32 @@ export default {
 <style scoped lang="scss">
 .hello {
   height: 300px;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   h1 {
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
+    color: #fff;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 768px) {
+  .hello {
+    text-align: center;
+    h1 {
+      font-size: 58px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hello {
+    h1 {
+      font-size: 78px;
+      line-height: 80px;
+    }
+  }
 }
 </style>

@@ -14,13 +14,13 @@ export default {
 
 <style lang="scss" scoped>
 .hamburger-wrap {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
-  padding: 30px;
+  padding: 20px;
   z-index: 10;
   .hamburger {
-    padding: 15px 15px;
+    padding: 15px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -56,7 +56,7 @@ export default {
   .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #17171a;
+    background-color: #fff;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
@@ -102,6 +102,9 @@ export default {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1024px) {
+  .hamburger-wrap {
+    display: none;
+  }
 }
 </style>

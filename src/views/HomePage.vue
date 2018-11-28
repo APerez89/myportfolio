@@ -3,6 +3,7 @@
     <div class="drk-bkg">
       <HelloIntro />
       <MainButton />
+      <p>Made by <span class="alex">Alex</span> with <span class="vue">Vue.JS</span> powers!</p>
     </div>
   </div>
 </template>
@@ -25,10 +26,9 @@ export default {
 .home {
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/Couch-1.jpg');
+  background-image: url('/img/bkg-img/Couch-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: 50%;
   .drk-bkg {
     width: 100vw;
     height: 100vh;
@@ -38,6 +38,18 @@ export default {
     align-items: center;
     flex-direction: column;
     z-index: 1;
+  }
+  p {
+    color: #fff;
+    span {
+      font-weight: 500;
+    }
+    .alex {
+      background-color: #2cadbe;
+    }
+    .vue {
+      background-color: #42b983;
+    }
   }
 }
 

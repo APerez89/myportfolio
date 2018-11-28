@@ -1,7 +1,10 @@
 <template>
   <div class="skills-wrap">
     <div class="skills">
-      <h2>Skills</h2>
+      <div class="bkg">
+        <div class="drk-bkg"><h2>S</h2></div>
+      </div>
+      <h3 class="head">Skills</h3>
       <div class="skill-cards">
         <ul>
           <li v-for="skill in skills" :key="skill['.key']">
@@ -33,18 +36,42 @@ export default {
 <style lang="scss" scoped>
 .skills-wrap {
   width: 100vw;
-  height: 100vh;
   display: flex;
-  padding: 25px;
   text-align: center;
-  color: #17171a;
+  transition: all 0.5s;
   .skills {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    .bkg {
+      width: 100%;
+      height: 300px;
+      background-image: url(/img/bkg-img/skills.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      .drk-bkg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+            Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 180px !important;
+          font-weight: 200;
+          text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+    h3 {
+      margin: 25px 0 5px;
+    }
     .skill-cards {
-      max-width: 500px;
       ul {
         list-style: none;
         padding: 0;
@@ -63,6 +90,40 @@ export default {
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .skill-cards {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bkg {
+    height: 500px !important;
+  }
+  .skill-cards {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bkg {
+    height: 900px !important;
+    .drk-bkg {
+      display: none !important;
+    }
+  }
+  .head {
+    font-size: 33px !important;
+    margin: 38px !important;
   }
 }
 </style>

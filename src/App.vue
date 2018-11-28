@@ -30,14 +30,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   line-height: 24px;
   letter-spacing: 1.3px;
-  color: #fff;
+  color: #818181;
   h2 {
     font-size: 30px;
+    color: #fff;
   }
   h3 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
+    color: #646464;
   }
 }
 </style>

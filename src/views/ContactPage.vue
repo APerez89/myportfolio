@@ -1,25 +1,27 @@
 <template>
   <div class="contact-wrap">
+    <div class="bkg"><h2>C</h2></div>
     <div class="contact">
-      <div class="bkg"><h2>Let's Talk</h2></div>
       <div class="contact-info">
+        <h3 class="head">Let's Talk</h3>
         <p class="outro">
           If you like what you see and had a good time, give me a call to discuss an opportunity to
-          work together! I <strong>love</strong> what I do and I am constantly looking for new and
-          fun projects to work on. Thank you for stopping by!
+          work together! I <span>love</span> what I do and I am constantly looking for new and fun
+          projects to work on. Thank you for stopping by!
         </p>
         <div class="phone">
-          <img src="/img/smartphone.png" />
+          <i class="fas fa-mobile-alt"></i>
           <p>(203)434-1532</p>
         </div>
         <div class="email">
-          <img src="gmail.png" />
+          <i class="fas fa-at"></i>
           <p>alexperez689@gmail.com</p>
         </div>
       </div>
-      <!-- <div class="bottom">
-        <a href=""><img src="linkedin.png" /> </a><a href=""><img src="gmail.png"/></a>
-      </div> -->
+      <div class="bottom">
+        <a href="https://www.linkedin.com/in/perezalx/"><i class="fab fa-linkedin icon"></i></a>
+        <a href="https://github.com/APerez89"><i class="fab fa-github-square icon"></i></a>
+      </div>
     </div>
   </div>
 </template>
@@ -33,44 +35,101 @@ export default {
 <style lang="scss" scoped>
 .contact-wrap {
   width: 100vw;
-  height: 100vh;
-  color: #17171a;
-  .contact {
-    background-color: #fff;
-    .bkg {
-      width: 100%;
-      height: 300px;
-      background-image: url(/img/call-2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      h2 {
-        font-size: 40px !important;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        padding: 25px 0;
-        color: #fff;
-      }
+  transition: all 0.5s;
+  .bkg {
+    width: 100%;
+    height: 300px;
+    background-image: url(/img/bkg-img/call-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 180px !important;
+      font-weight: 200;
+      text-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
     }
+  }
+  .contact {
+    max-width: 700px;
+    margin: 0 auto;
     .contact-info {
       padding: 35px 25px;
-      color: #818181;
+      h3 {
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: #eca044 !important;
+      }
       .outro {
         margin-bottom: 25px;
+        padding-left: 10px;
+        span {
+          color: #eca044;
+          font-weight: 900;
+        }
       }
-      .phone, .email {
+      .phone,
+      .email {
         width: 100%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        img {
-          width: 50px;
+        justify-content: end;
+        .fas {
+          font-size: 22px;
+          color: #eca044;
+          padding: 0 25px 0 0;
         }
       }
       .phone {
         margin-bottom: 25px;
       }
+    }
+    .bottom {
+      display: flex;
+      justify-content: center;
+      margin: 25px 0;
+      .icon {
+        font-size: 22px;
+        color: #eca044;
+        padding: 0 5px;
+        &:visited {
+          color: #eca044;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bkg {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bkg {
+    height: 900px !important;
+    h2 {
+      display: none !important;
+    }
+  }
+  .head {
+    font-size: 33px !important;
+    margin-bottom: 38px !important;
+  }
+  p {
+    font-size: 22px;
+    letter-spacing: 4px;
+    line-height: 33px;
+  }
+  .bottom {
+    margin: 35px 0 !important;
+    .icon {
+      font-size: 33px !important;
+      padding: 0 10px !important;
     }
   }
 }

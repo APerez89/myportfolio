@@ -19,10 +19,9 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 25px;
+  margin: 25px;
   .btn {
-    width: 100%;
-    height: 42px;
+    padding: 15px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +34,22 @@ export default {
     letter-spacing: 12px;
   }
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 768px) {
+  .btn-wrap {
+    .btn {
+      width: 250px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .btn-wrap {
+    .btn {
+      width: 350px;
+      height: 75px;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
 }
 </style>

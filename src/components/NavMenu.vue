@@ -66,6 +66,35 @@ export default {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1024px) {
+  .mob-nav {
+    display: none;
+  }
+  .nav {
+    width: 200px;
+    height: 100vh;
+    background-color: #17171a;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex !important;
+    align-items: center;
+    ul {
+      li {
+        list-style: none;
+        font-variant: small-caps;
+        padding: 10px 0;
+        .link {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 600;
+          transition: all 0.2s;
+          &:checked {
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
 }
 </style>
