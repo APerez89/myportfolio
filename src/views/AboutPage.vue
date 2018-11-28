@@ -5,7 +5,7 @@
       <div class="info">
         <h3>About Me</h3>
         <!-- eslint-disable -->
-        <p>Experienced Front-end Web Developer with 4 plus years of development experiencee. I have worked on several projects where I implemented new techniques to get complete the tasks, and through trial and error have made every new project I take on easier. I am extremely driven and constantly learning new ways to enhance my skills as a developer while using Vue.JS framework. I have been spending most of my free time taking various courses to be a better developer.</p>
+        <p>Experienced Front-end Web Developer with 4 plus years of development experience. I have worked on several projects where I implemented new techniques to get complete the tasks, and through trial and error have made every new project I take on easier. I am extremely driven and constantly learning new ways to enhance my skills as a developer while using Vue.JS framework. I have been spending most of my free time taking various courses to be a better developer.</p>
         <div class="abt-img">
           <img src="/img/icons/badge.png">
         </div>
