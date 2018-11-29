@@ -110,7 +110,7 @@ export default {
 
 @media only screen and (min-width: 1440px) {
   .bkg {
-    height: 900px !important;
+    height: 600px !important;
     .drk-bkg {
       display: none !important;
     }
