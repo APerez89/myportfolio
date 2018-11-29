@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 .skills-wrap {
   width: 100vw;
-  display: flex;
+  height: 100vh;
   text-align: center;
   transition: all 0.5s;
   .skills {

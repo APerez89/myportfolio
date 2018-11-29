@@ -93,7 +93,7 @@ export default {
           color: #fff;
           font-weight: 600;
           transition: all 0.2s;
-          &:checked {
+          &:hover {
             border-bottom: 1px solid #fff;
           }
         }
