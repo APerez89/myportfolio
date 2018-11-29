@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view />
+    <transition name="fade" mode="out-in"><router-view /></transition>
     <NavMenu v-show="$route.name !== 'home'" />
     <HamburgerMenu v-show="$route.name !== 'home'" />
   </div>
@@ -32,6 +32,17 @@ export default {
   line-height: 24px;
   letter-spacing: 1.3px;
   color: #818181;
+  .fade-enter-active,
+  .fade-leave-active {
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+  }
+
+  .fade-enter,
+  .fade-leave-active {
+    opacity: 0;
+  }
   h2 {
     font-size: 30px;
     color: #fff;
