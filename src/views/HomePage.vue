@@ -1,13 +1,9 @@
 <template>
   <div class="home">
     <div class="drk-bkg">
-      <HelloIntro/>
-      <MainButton/>
-      <p>
-        Made by
-        <span class="alex">Alex</span> with
-        <span class="vue">Vue.JS</span> powers!
-      </p>
+      <HelloIntro />
+      <MainButton />
+      <p>Made by <span class="alex">Alex</span> with <span class="vue">Vue.JS</span> powers!</p>
     </div>
   </div>
 </template>

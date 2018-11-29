@@ -14,7 +14,7 @@
             <div class="work-img" :style="`background-image:url(img/${work.img_url}`"></div>
             <div class="work-des">
               <h3>
-                <a :href="`${work.url}`">{{ work.title }}</a>
+                <a :href="`${work.url}`" target="_blank">{{ work.title }}</a>
               </h3>
               <p>{{ work.info }}</p>
             </div>
