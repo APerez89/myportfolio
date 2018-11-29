@@ -21,7 +21,7 @@ export default {
   justify-content: center;
   margin: 25px;
   .btn {
-    padding: 15px 25px;
+    padding: 15px 25px 15px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
