@@ -3,7 +3,10 @@
     <div class="drk-bkg">
       <HelloIntro />
       <MainButton />
-      <p>Made by <span class="alex">Alex</span> with <span class="vue">Vue.JS</span> powers!</p>
+      <p>
+        Made by <span class="alex">Alex</span> with
+        <span class="vue"><a href="https://vuejs.org/" target="_blank">Vue.JS</a></span> powers!
+      </p>
     </div>
   </div>
 </template>
@@ -51,6 +54,12 @@ export default {
     .vue {
       padding: 0 3px;
       background-color: #42b983;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: #fff;
+        }
+      }
     }
   }
 }

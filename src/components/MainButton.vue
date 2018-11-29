@@ -48,7 +48,13 @@ export default {
     .btn {
       width: 350px;
       height: 75px;
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.4);
+      transition: all 0.3s;
+      &:hover {
+        transform: translateY(-7px);
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+      }
     }
   }
 }
