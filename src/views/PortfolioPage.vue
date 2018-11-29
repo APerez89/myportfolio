@@ -96,6 +96,9 @@ export default {
               a {
                 text-decoration: none;
                 border-bottom: 1px solid #17171a;
+                &:link {
+                  color: #17171a;
+                }
                 &:visited {
                   color: #17171a;
                 }
