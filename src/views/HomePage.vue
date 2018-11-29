@@ -1,9 +1,13 @@
 <template>
   <div class="home">
     <div class="drk-bkg">
-      <HelloIntro />
-      <MainButton />
-      <p>Made by <span class="alex">Alex</span> with <span class="vue">Vue.JS</span> powers!</p>
+      <HelloIntro/>
+      <MainButton/>
+      <p>
+        Made by
+        <span class="alex">Alex</span> with
+        <span class="vue">Vue.JS</span> powers!
+      </p>
     </div>
   </div>
 </template>
@@ -45,9 +49,11 @@ export default {
       font-weight: 500;
     }
     .alex {
+      padding: 0 3px;
       background-color: #2cadbe;
     }
     .vue {
+      padding: 0 3px;
       background-color: #42b983;
     }
   }
