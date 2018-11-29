@@ -14,7 +14,7 @@ const skills = [
   {
     id: 3,
     title: 'JavaScript ES6',
-    info: '2 plus years experience. Currently learning REACT.JS.',
+    info: '3 plus years experience using JS. Currently learning REACT.JS.',
     img_url: 'icons/js.png',
   },
   {
