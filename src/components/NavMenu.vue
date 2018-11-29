@@ -3,23 +3,47 @@
     <!-- If there is more than one class, add classes to array -->
     <div :class="['mob-nav', $store.state.scopen ? 'open' : '']">
       <ul>
-        <li><router-link class="link" to="/">Welcome</router-link></li>
-        <li><router-link class="link" to="/About">About</router-link></li>
-        <li><router-link class="link" to="/Portfolio">Portfolio</router-link></li>
-        <li><router-link class="link" to="/Skills">Skills</router-link></li>
-        <li><router-link class="link" to="/Works">In the Works</router-link></li>
-        <li><router-link class="link" to="/Contact">Contact</router-link></li>
+        <li>
+          <router-link class="link" to="/">Welcome</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/About">About</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Portfolio">Portfolio</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Skills">Skills</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Works">In the Works</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Contact">Contact</router-link>
+        </li>
       </ul>
     </div>
 
     <div class="nav">
       <ul>
-        <li><router-link class="link" to="/">Welcome</router-link></li>
-        <li><router-link class="link" to="/About">About</router-link></li>
-        <li><router-link class="link" to="/Portfolio">Portfolio</router-link></li>
-        <li><router-link class="link" to="/Skills">Skills</router-link></li>
-        <li><router-link class="link" to="/Works">In the Works</router-link></li>
-        <li><router-link class="link" to="/Contact">Contact</router-link></li>
+        <li>
+          <router-link class="link" to="/">Welcome</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/About">About</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Portfolio">Portfolio</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Skills">Skills</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Works">In the Works</router-link>
+        </li>
+        <li>
+          <router-link class="link" to="/Contact">Contact</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -58,6 +82,10 @@ export default {
           color: #fff;
           font-weight: 600;
         }
+
+        & .router-link-exact-active {
+          border-bottom: 1px solid #fff;
+        }
       }
     }
   }
@@ -83,7 +111,7 @@ export default {
       li {
         list-style: none;
         font-variant: small-caps;
-        padding: 10px 0;
+        margin: 10px 0;
         .link {
           text-decoration: none;
           color: #fff;
@@ -92,6 +120,10 @@ export default {
           &:checked {
             border-bottom: 1px solid #fff;
           }
+        }
+
+        & .router-link-exact-active {
+          border-bottom: 1px solid #fff;
         }
       }
     }
