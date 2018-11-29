@@ -73,6 +73,7 @@ export default {
     .head-info {
       text-align: center;
       padding: 0 0 15px;
+      margin: 0 10px;
     }
     .info-card {
       max-width: 1400px;
