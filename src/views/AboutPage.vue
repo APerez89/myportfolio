@@ -5,11 +5,11 @@
       <div class="info">
         <h3>About Me</h3>
         <!-- eslint-disable -->
-        <p>Experienced Front-end Web Developer with 4 plus years of development experience. I have worked on several projects where I implemented new techniques to complete the tasks, and through trial and error have made every new project I take on easier. I am extremely driven and constantly learning new ways to enhance my skills as a developer while using Vue.JS framework. I have been spending most of my free time taking various courses to be a better developer.</p>
+        <p>Experienced Front-end Web Developer with 4 plus years of development experience. I have worked on several projects where I implemented new techniques and through trial and error have made every new project I take on easier. I am extremely driven and constantly learning new ways to enhance my skills as a developer while using Vue.JS framework. I have been spending most of my free time taking various courses to be a better developer.</p>
         <div class="abt-img">
           <img src="/img/icons/badge.png">
         </div>
-        <p>I am currently serving in the Connecticut Air National Guard and have been for 7 years and counting (8 years coming up this January)! My job in the Air National Guard is Supply, and for those of you who are familiar, "you can't fly without supply!" Recently I went away for Airman Leadership School where I learned several techniques on taking care of Airmen, leading Airmen, communication, and overall being the most effective leader. Shortly after graduating I was promoted to the rank of Staff Sergeant (SSgt) and with it taking on new challenges! With one deployment under my belt, and my years of service, I am extremely grateful for all of the experiences I have had and the people I have met, for they have made me a better person, father, and Airman.</p>
+        <p>I am currently serving in the Connecticut Air National Guard and have been for 7 years and counting (8 years coming up this January)! My job in the Air National Guard is Supply, and for those of you who are familiar, "you can't fly without supply!" Recently I went away for Airman Leadership School where I learned several techniques on taking care of Airmen, leading Airmen, communication, and overall how to be the most effective leader. Shortly after graduating I was promoted to the rank of Staff Sergeant (SSgt) and with it taking on new challenges! With one deployment under my belt, and my years of service, I am extremely grateful for all of the experiences I have had and the people I have met, for they have made me a better person, father, and Airman.</p>
       </div>
     </div>
   </div>
