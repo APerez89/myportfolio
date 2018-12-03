@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
 .contact-wrap {
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   transition: all 0.5s;
   .bkg {
     width: 100%;
@@ -105,7 +105,7 @@ export default {
 
 @media only screen and (min-width: 1440px) {
   .bkg {
-    height: 600px !important;
+    // height: 600px !important;
     h2 {
       display: none !important;
     }

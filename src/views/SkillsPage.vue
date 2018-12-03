@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 .skills-wrap {
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   text-align: center;
   transition: all 0.5s;
   .skills {
@@ -110,7 +110,7 @@ export default {
 
 @media only screen and (min-width: 1440px) {
   .bkg {
-    height: 600px !important;
+    // height: 600px !important;
     .drk-bkg {
       display: none !important;
     }
