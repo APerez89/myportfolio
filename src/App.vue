@@ -25,6 +25,7 @@ export default {
   margin: 0;
 }
 #app {
+  min-height: 100%;
   display: flex;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
