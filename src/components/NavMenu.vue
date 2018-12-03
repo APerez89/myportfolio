@@ -76,7 +76,7 @@ export default {
   }
   .nav {
     width: 200px;
-    height: 100%;
+    height: -webkit-fill-available;
     background-color: #17171a;
     display: flex !important;
     ul {
