@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
 .contact-wrap {
   width: 100vw;
-  // height: 100vh;
+  height: -webkit-fill-available;
   transition: all 0.5s;
   .bkg {
     width: 100%;
