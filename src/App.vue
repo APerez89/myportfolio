@@ -24,6 +24,12 @@ export default {
   box-sizing: border-box;
   margin: 0;
 }
+
+html,
+body {
+  width: 100%;
+}
+
 #app {
   min-height: 100%;
   display: flex;
