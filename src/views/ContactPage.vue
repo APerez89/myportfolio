@@ -97,32 +97,38 @@ export default {
 }
 
 @media only screen and (min-width: 1024px) {
-  .bkg {
-    height: 500px !important;
+  .contact-wrap {
+    height: 100vh;
+    .bkg {
+      height: 500px !important;
+    }
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .bkg {
-    height: 600px !important;
-    h2 {
-      display: none !important;
+  .contact-wrap {
+    height: 100vh;
+    .bkg {
+      height: 600px !important;
+      h2 {
+        display: none !important;
+      }
     }
-  }
-  .head {
-    font-size: 33px !important;
-    margin-bottom: 38px !important;
-  }
-  p {
-    font-size: 22px;
-    letter-spacing: 4px;
-    line-height: 33px;
-  }
-  .bottom {
-    margin: 35px 0 !important;
-    .icon {
+    .head {
       font-size: 33px !important;
-      padding: 0 10px !important;
+      margin-bottom: 38px !important;
+    }
+    p {
+      font-size: 22px;
+      letter-spacing: 4px;
+      line-height: 33px;
+    }
+    .bottom {
+      margin: 35px 0 !important;
+      .icon {
+        font-size: 33px !important;
+        padding: 0 10px !important;
+      }
     }
   }
 }

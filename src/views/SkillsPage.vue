@@ -96,27 +96,33 @@ export default {
 }
 
 @media only screen and (min-width: 1024px) {
-  .bkg {
-    height: 500px !important;
-  }
-  .skill-cards {
-    ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+  .skills-wrap {
+    height: 100vh;
+    .bkg {
+      height: 500px !important;
+    }
+    .skill-cards {
+      ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .bkg {
-    // height: 600px !important;
-    .drk-bkg {
-      display: none !important;
+  .skills-wrap {
+    height: 100vh;
+    .bkg {
+      // height: 600px !important;
+      .drk-bkg {
+        display: none !important;
+      }
     }
-  }
-  .head {
-    font-size: 33px !important;
-    margin: 38px !important;
+    .head {
+      font-size: 33px !important;
+      margin: 38px !important;
+    }
   }
 }
 </style>
